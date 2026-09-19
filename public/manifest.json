@@ -1,0 +1,80 @@
+{
+  "id": "/?source=pwa",
+  "name": "حسابي - إدارة الرواتب والعمليات المالية",
+  "short_name": "حسابي",
+  "description": "تطبيق أندرويد متكامل لإدارة الرواتب والعمليات المالية والموظفين متوافق مع كافة الأجهزة مع دعم العمل دون اتصال والمزامنة اللحظية.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "window-controls-overlay"
+  ],
+  "orientation": "any",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": [
+    "finance",
+    "business",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "إضافة عملية مالية",
+      "short_name": "عملية جديدة",
+      "description": "تسجيل سحب، عمولة، أو راتب جديد بسرعة",
+      "url": "/?action=new-tx",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "كشف الحساب والتقارير",
+      "short_name": "التقارير",
+      "description": "تصدير وطباعة كشف الحساب المالي PDF",
+      "url": "/?action=report",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,6 @@
+{
+  "name": "حسابي - إدارة الرواتب والعمليات المالية",
+  "description": "تطبيق حسابي المالي لإدارة الرواتب والعمولات والسحوبات والمصروفات، متوافق مع كافة أجهزة أندرويد والهواتف الذكية مع دعم العمل دون إنترنت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
